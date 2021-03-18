@@ -16,25 +16,25 @@ Create a script that will loop through all the stocks for one year and output th
 * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 * The total stock volume of the stock.
-
-* Use conditional formatting that will highlight positive change in green and negative change in red.
+* Use conditional formatting that will highlight positive change in green and 
+negative change in red.
+* Add the stock info: "Greatest % increase", "Greatest % decrease" and "Greatest total volume" by Year.
 
 The result should look as follows.
 
 ![Test Image 3](/Example.png)
 
-BONUS
-
-Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
-
-
-
-Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
-
 ## Usage
 
 The repository Contains two Files 
 
-*  .xlsm contains the data and the Solved problem 
-* .vbs   The Visual Basic Code that Solve the problem
+*  .xlsm  Contains the data and the Solved problem 
+*  .vbs   The Visual Basic Code that Solve the problem
 
+## Steps
+
+* Open the .xlsm 
+* Go to the Develeoper Tab
+* Click the Visual Basic Button
+* Within the new Windows that pop up import de .vbs file
+* Run the imported Code  
